@@ -18,7 +18,7 @@ class PostSeeder extends Seeder
             Post::create([
                 'slug' =>$title,
                 'title'=>$title,
-                'image' =>'https://picsum.photos/id/'. rand(0, 1000) .'/200/300',
+                'image' =>'https://picsum.photos/id/'. rand(0, 1000) .'/500/400',
                 'content' => $faker ->paragraphs(rand(1, 10), true),
                 'excerpt' => $faker ->paragraph(),
             ]);
