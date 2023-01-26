@@ -8,7 +8,7 @@
                 <div class="card-header">{{ __('Dashboard') }}</div>
 
                 <div class="card-body">
-                    Hello {{$user->name}}, your name is: {{$user->email}}
+                    Hello {{$user->name}}, your e-mail is: {{$user->email}}
                     @if (session('status'))
                         <div class="alert alert-success" role="alert">
                             {{ session('status') }}
